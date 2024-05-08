@@ -1,14 +1,14 @@
-import "bovino_bravo.dart";
-import "bovino_manso.dart";
-import "caballo.dart";
-import "perro.dart";
+import 'app.dart';
+import 'database.dart';
 
+main()async {
+  await Database().instalacion();
 
+  
 
+  await App().menuInicial();
 
-
-
-main() {
+   
 
 
   
